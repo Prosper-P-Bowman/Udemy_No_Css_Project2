@@ -1,0 +1,327 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    width: 100%;
+    height: 17vh;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    padding: 18px;
+    border: 1px solid gray;
+    color: white;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+}
+nav ul .home{
+    background-color: blue;
+    border-left-color: black;
+}
+nav ul li:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.group{
+    display: flex;
+}
+.blue{
+    background-color: rgb(129, 129, 236);
+    width: 14%;
+    padding: 0 20px 20px 20px;
+    height: 72vh;
+}
+.welcome{
+    background-color: white;
+    width: 72%;
+    padding: 0 20px 20px 20px;
+    height: 72vh;
+}
+.yellow{
+    background-color: yellow;
+    width: 14%;
+    padding: 0 20px 20px 20px;
+    height: 64vh;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 5vh;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+/* Mobile Device ------------------------------------------------------ */
+@media (max-width: 480px) {
+    body{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 2px;
+    }
+    nav{
+        background-color: red;
+    }
+    nav ul{
+        display: flex;
+    }
+    .group{
+        display: inline;
+    }
+    .blue{
+        width: 100%;
+        height: 34vh;
+        padding: 0;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .welcome{
+        width: 100%;
+        height: 50vh;
+        padding: 0;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .yellow{
+        width: 100%;
+        height: 35vh;
+        padding: 0;
+        text-align: center;
+        padding-top: 5px;
+
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    body{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 2px;
+    }
+    nav{
+        background-color: red;
+    }
+    nav ul{
+        display: flex;
+    }
+    .group{
+        display: inline;
+    }
+    .blue{
+        width: 100%;
+        height: 34vh;
+        padding: 0;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .welcome{
+        width: 100%;
+        height: 50vh;
+        padding: 0;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .yellow{
+        width: 100%;
+        height: 35vh;
+        padding: 0;
+        text-align: center;
+        padding-top: 5px;
+
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    body{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 2px;
+    }
+    nav{
+        background-color: red;
+    }
+    nav ul{
+        display: flex;
+    }
+    .group{
+        display: inline;
+    }
+    .blue{
+        width: 100%;
+        height: 34vh;
+        padding: 0;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .welcome{
+        width: 100%;
+        height: 50vh;
+        padding: 0;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .yellow{
+        width: 100%;
+        height: 35vh;
+        padding: 0;
+        text-align: center;
+        padding-top: 5px;
+
+    }
+}
+
+ /* Media Query for Laptops and Desktops */
+ @media (min-width: 1025px) and (max-width: 1280px) {
+    body{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0px;
+    }
+    nav{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        background-color: black;
+        width: 100%;
+        height: 17vh;
+    }
+    nav ul{
+        padding: 0;
+        margin: 0;
+        background-color: black;
+        display: flex;
+        list-style-type: none;
+    }
+    nav ul li{
+        padding: 18px;
+        border: 1px solid gray;
+        color: white;
+        border-right: none;
+        border-bottom: none;
+        border-top: none;
+    }
+    nav ul .home{
+        background-color: blue;
+        border-left-color: black;
+    }
+    nav ul li:hover{
+        cursor: pointer;
+        background-color: blue;
+    }
+    .group{
+        display: flex;
+    }
+    .blue{
+        background-color: rgb(129, 129, 236);
+        width: 14%;
+        padding: 0 20px 20px 20px;
+        height: 72vh;
+    }
+    .welcome{
+        background-color: white;
+        width: 72%;
+        padding: 0 20px 20px 20px;
+        height: 72vh;
+    }
+    .yellow{
+        background-color: yellow;
+        width: 14%;
+        padding: 0 20px 20px 20px;
+        height: 64vh;
+    }
+    .footer{
+        background-color: black;
+        width: 100%;
+        height: 5vh;
+        align-content: center;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+    }
+ }
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    body{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0px;
+    }
+    nav{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        background-color: black;
+        width: 100%;
+        height: 17vh;
+    }
+    nav ul{
+        padding: 0;
+        margin: 0;
+        background-color: black;
+        display: flex;
+        list-style-type: none;
+    }
+    nav ul li{
+        padding: 18px;
+        border: 1px solid gray;
+        color: white;
+        border-right: none;
+        border-bottom: none;
+        border-top: none;
+    }
+    nav ul .home{
+        background-color: blue;
+        border-left-color: black;
+    }
+    nav ul li:hover{
+        cursor: pointer;
+        background-color: blue;
+    }
+    .group{
+        display: flex;
+    }
+    .blue{
+        background-color: rgb(129, 129, 236);
+        width: 14%;
+        padding: 0 20px 20px 20px;
+        height: 72vh;
+    }
+    .welcome{
+        background-color: white;
+        width: 72%;
+        padding: 0 20px 20px 20px;
+        height: 72vh;
+    }
+    .yellow{
+        background-color: yellow;
+        width: 14%;
+        padding: 0 20px 20px 20px;
+        height: 64vh;
+    }
+    .footer{
+        background-color: black;
+        width: 100%;
+        height: 5vh;
+        align-content: center;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+    }
+    
+}
